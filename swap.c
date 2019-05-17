@@ -9,9 +9,9 @@ int main(void)
     printf("y is %i\n", y);
     
     // swapping...
-    int temp = x;
-    x = y;
-    y = temp;
+    int temp = y;
+    y = x;
+    x = temp;
     
     printf("x is now %i\n", x);
     printf("y is now %i\n", y);
